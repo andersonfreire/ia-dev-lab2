@@ -7,7 +7,7 @@
   - Criar schema `ConfidenceScoreValidator` restringindo valores ao intervalo [0.0, 1.0].
   - Criar schema principal `AuditPayload` contemplando a classificação de risco e o array de explicabilidade.
   - Implementar validador de raiz (`@model_validator`) para garantir que o objeto XAI não seja nulo ou vazio quando o risco for "Crítico".
-- [ ] **Tarefa 3: Camada de Negócio e Roteamento**
+- [x] **Tarefa 3: Camada de Negócio e Roteamento**
   - Implementar a lógica de serviço para recepção dos dados.
   - Desenvolver o endpoint `POST /api/v1/audit/metrics`.
   - Mapear os erros de validação do Pydantic para retornar o status `400 Bad Request` com mensagens descritivas de violação matemática.
