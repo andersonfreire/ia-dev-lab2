@@ -11,7 +11,7 @@
   - Implementar a lógica de serviço para recepção dos dados.
   - Desenvolver o endpoint `POST /api/v1/audit/metrics`.
   - Mapear os erros de validação do Pydantic para retornar o status `400 Bad Request` com mensagens descritivas de violação matemática.
-- [ ] **Tarefa 4: Implementação da Suíte de Testes (BDD)**
+- [x] **Tarefa 4: Implementação da Suíte de Testes (BDD)**
   - Escrever teste unitário para o caminho feliz (risco crítico + XAI preenchido).
   - Escrever testes unitários para o caso de borda 1 (confidence score 1.5 e -0.1).
   - Escrever teste unitário para o caso de borda 2 (risco crítico com array XAI ausente).

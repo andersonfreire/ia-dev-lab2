@@ -5,3 +5,7 @@
 ## Revisão da Etapa 3 - Tarefa 3 (Roteamento)
 
 A revisão dos códigos dos arquivos src/main.py e src/services.py foi realizada. A IA criou o endpoint e implementou ativamente um exception handler para converter os erros de validação 422 padrão do FastAPI para 400 Bad Request de forma correta, garantindo aderência aos cenários de borda especificados no nosso BDD.
+
+## Revisão da Etapa 3 - Tarefa 4 (Testes BDD)
+
+A suíte de testes (tests/test_audit.py) foi inspecionada e aprovada. A implementação garantiu a cobertura de 100% dos critérios de aceite (BDD), incluindo o detalhamento do Caso de Borda 2, testando tanto a ausência da propriedade de explicabilidade quanto o envio de uma lista vazia. Os testes comprovam que a API responde com HTTP 400 Bad Request adequado às violações das regras de negócio.
