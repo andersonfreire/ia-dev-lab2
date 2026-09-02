@@ -1,9 +1,9 @@
 # Plano de Tarefas: Registry de Auditoria (ML/XAI)
 
-- [ ] **Tarefa 1: Setup da Infraestrutura Base**
+- [x] **Tarefa 1: Setup da Infraestrutura Base**
   - Inicializar projeto Python com FastAPI e Pydantic.
   - Configurar o framework de testes (Pytest).
-- [ ] **Tarefa 2: Modelagem de Dados e Validação (Pydantic)**
+- [x] **Tarefa 2: Modelagem de Dados e Validação (Pydantic)**
   - Criar schema `ConfidenceScoreValidator` restringindo valores ao intervalo [0.0, 1.0].
   - Criar schema principal `AuditPayload` contemplando a classificação de risco e o array de explicabilidade.
   - Implementar validador de raiz (`@model_validator`) para garantir que o objeto XAI não seja nulo ou vazio quando o risco for "Crítico".
